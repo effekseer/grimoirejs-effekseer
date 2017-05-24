@@ -11,7 +11,7 @@
     "scripts": {
         "start": "webpack --watch --progress",
         "bundle": "webpack --progress --watch",
-        "prepublish": "npm run build -- --prod",
+        "prepublish": "npm run build -- --env.prod",
         "build": "webpack --progress",
         "generate-expose": "cauldron generate-exposure --src ./src --dest ./src/index.ts --ts --main ./src/main.ts --dts ./ref",
         "generate-reference": "cauldron generate-reference --src ./src --dest ./src/index.ts --ts --main ./src/main.ts --dts ./ref"
