@@ -1,5 +1,5 @@
 {
-    "name": "grimoirejs-ts-boilerplate",
+    "name": "grimoirejs-effekseer",
     "version": "1.0.0",
     "description": "The boilerplate project for making plugin of grimoire.js.",
     "main": "index.js",
@@ -17,7 +17,9 @@
         "generate-reference": "cauldron generate-reference --src ./src --dest ./src/index.ts --ts --main ./src/main.ts --dts ./ref"
     },
     "dependencies": {
-        "grimoirejs": "latest"
+        "grimoirejs": "latest",
+        "grimoirejs-fundamental": "^0.19.1",
+        "grimoirejs-math": "^1.12.8"
     },
     "devDependencies": {
         "babel-cli": "^6.18.0",
