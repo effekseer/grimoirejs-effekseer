@@ -8,5 +8,6 @@ export default class EffekseerManager extends Component{
     effekseer.init(gl);
     const ns = gr.ns(this.node.name.ns);
     this.companion.set(ns("effekseer"),effekseer);
+    // this is test
   }
 }
